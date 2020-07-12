@@ -27,18 +27,6 @@ const App = () => {
 
       // axios get request to marvel api for all characters
       const result = await axios(
-        base_endpoint.concat(
-          get_all_chars,
-          "?",
-          "ts=",
-          timestamp,
-          "&apikey=",
-          process.env.REACT_APP_MARVEL_API_PUBLIC_KEY,
-          "&hash=",
-          md5_hash
-        )
-
-        /**
         // GET request
         base_endpoint.concat(
           get_all_chars,
@@ -51,7 +39,6 @@ const App = () => {
           "&hash=",
           md5_hash
         )
-        */
       );
 
       console.log(result.data.data.results);
