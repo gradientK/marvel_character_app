@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ff5f647e-6d50-4b0f-ac5e-cf9282dead90/deploy-status)](https://app.netlify.com/sites/marvel-character-app/deploys)
+
 ## Available Scripts
 
 In the project directory, you can run:
