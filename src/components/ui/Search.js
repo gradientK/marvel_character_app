@@ -14,7 +14,7 @@ const Search = ({ getQuery }) => {
         <input
           type="text"
           className="form-control"
-          placeholder="Search characters (limit 20)"
+          placeholder="Search characters (limit 20 results)"
           value={text}
           onChange={(e) => onChange(e.target.value)}
           autoFocus
